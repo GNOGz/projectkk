@@ -47,6 +47,7 @@ namespace Pakreserve1 {
 	private: System::Windows::Forms::Label^ label8;
 	private: System::Windows::Forms::Button^ button2;
 	private: System::Windows::Forms::Button^ button3;
+	private: System::Windows::Forms::CheckBox^ checkBox1;
 	private: System::Windows::Forms::Button^ button4;
 
 	protected:
@@ -73,6 +74,7 @@ namespace Pakreserve1 {
 			this->label8 = (gcnew System::Windows::Forms::Label());
 			this->button2 = (gcnew System::Windows::Forms::Button());
 			this->button3 = (gcnew System::Windows::Forms::Button());
+			this->checkBox1 = (gcnew System::Windows::Forms::CheckBox());
 			this->button4 = (gcnew System::Windows::Forms::Button());
 			this->SuspendLayout();
 			// 
@@ -150,13 +152,23 @@ namespace Pakreserve1 {
 			this->button3->TabIndex = 12;
 			this->button3->UseVisualStyleBackColor = true;
 			// 
+			// checkBox1
+			// 
+			this->checkBox1->AutoSize = true;
+			this->checkBox1->Location = System::Drawing::Point(618, 133);
+			this->checkBox1->Name = L"checkBox1";
+			this->checkBox1->Size = System::Drawing::Size(90, 21);
+			this->checkBox1->TabIndex = 13;
+			this->checkBox1->Text = L"checkBox1";
+			this->checkBox1->UseVisualStyleBackColor = true;
+			// 
 			// button4
 			// 
-			this->button4->Location = System::Drawing::Point(752, 181);
+			this->button4->Location = System::Drawing::Point(386, 215);
 			this->button4->Name = L"button4";
-			this->button4->Size = System::Drawing::Size(238, 67);
-			this->button4->TabIndex = 13;
-			this->button4->Text = L"Test Test 69";
+			this->button4->Size = System::Drawing::Size(198, 88);
+			this->button4->TabIndex = 14;
+			this->button4->Text = L"button4";
 			this->button4->UseVisualStyleBackColor = true;
 			// 
 			// Login
@@ -165,6 +177,7 @@ namespace Pakreserve1 {
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->ClientSize = System::Drawing::Size(1262, 673);
 			this->Controls->Add(this->button4);
+			this->Controls->Add(this->checkBox1);
 			this->Controls->Add(this->button3);
 			this->Controls->Add(this->button2);
 			this->Controls->Add(this->label8);
